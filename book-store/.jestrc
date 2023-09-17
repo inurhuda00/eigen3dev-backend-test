@@ -1,0 +1,6 @@
+module.exports = {
+  // (trimmed to just the relevant parts)
+  transform: {
+    '^.+\\.tsx?$': ['ts-jest', { tsconfig: 'tsconfig.json' }],
+  },
+};
